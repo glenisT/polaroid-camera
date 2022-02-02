@@ -149,7 +149,7 @@ html, body
     margin-top: 4.5vh;
     margin-left: 35vh;
     box-shadow: 0px 0.4vh 0px rgba(0,0,0,.4);
-    animation: snapperClick 0.6s 4 forwards reverse;
+    animation: snapperClick 0.6s 3 forwards reverse;
 }
 
 .snapper-button:hover
