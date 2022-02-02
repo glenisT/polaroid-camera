@@ -171,7 +171,7 @@ html, body
 .polaroid-body
 {
     background-color: rgb(233, 232, 232);
-    height: 50vh;
+    height: 45vh;
     width: 40vh;
     position: absolute;
     display: flex;
@@ -182,7 +182,7 @@ html, body
 
 .polaroid-picture
 {
-    height: 30vh;
+    height: 25vh;
     width: 35vh;
     margin-top: 3vh;
     background-color: black;
