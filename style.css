@@ -16,11 +16,21 @@
     }
 }
 
+@keyframes flash {
+    from {
+      opacity: 0%;
+    }
+    to {
+      opacity: 100%;
+    }
+}
+
 html, body
 {
     margin:0;
     padding:0;
     background-color:#333;
+    animation: flash 0.5s 1;
 }
 
 .camera-body
