@@ -7,6 +7,15 @@
     }
 }
 
+@keyframes snapperClick {
+    from{
+        box-shadow: 0px 0.4vh 0px rgba(0,0,0,.4);
+    }
+    to{
+        box-shadow: 0px 0vh 0px rgba(0,0,0,.4);
+    }
+}
+
 html, body
 {
     margin:0;
@@ -128,4 +137,17 @@ html, body
     margin-top: 6vh;
     margin-right: 35vh;
     animation: ledPulse 0.6s infinite forwards reverse;
+}
+
+.snapper-button
+{
+    height: 5vh;
+    width: 6vh;
+    background-color: #2e3e4f;
+    position: absolute;
+    border-radius: 45%;
+    margin-top: 4.5vh;
+    margin-left: 35vh;
+    box-shadow: 0px 0.4vh 0px rgba(0,0,0,.4);
+    animation: snapperClick 0.6s 4 forwards reverse;
 }
