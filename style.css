@@ -27,11 +27,9 @@
 
 @keyframes print {
     from{
-        visibility: hidden;
     }
     to{
-        visibility: visible;
-        margin-left: 100vh;
+        margin-left: 25vh;
     }
 }
 
@@ -207,11 +205,12 @@ html, body
     height: 45vh;
     width: 40vh;
     position: absolute;
-    margin-top: 2.5vh;
+    margin-left: 37%;
+    margin-top: 27vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    visibility: hidden;
+    visibility: visible;
 }
 
 .polaroid-picture
@@ -230,6 +229,11 @@ html, body
 }
 
 .polaroid-body:hover {
+    cursor: pointer;
     animation: shake 0.9s;
-    animation-iteration-count: infinite;
-  }
+    animation-iteration-count: 2;
+}
+
+.polaroid-body:hover .pic {
+    animation: develop 4s forwards;
+}
