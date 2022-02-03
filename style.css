@@ -51,9 +51,11 @@
 
 @keyframes develop {
     from{
-        background-color: black;
+        opacity: 0%;
     }
-
+    to{
+        opacity: 100%;
+    }
 }
 
 html, body
