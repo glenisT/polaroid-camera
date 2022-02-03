@@ -25,11 +25,12 @@
     }
 }
 
-@keyframes slide {
+@keyframes print {
     from{
-        margin-left: 0vh;
+        visibility: hidden;
     }
     to{
+        visibility: visible;
         margin-left: 100vh;
     }
 }
@@ -46,7 +47,14 @@
     80% { transform: translate(-1px, -11px) rotate(1deg); }
     90% { transform: translate(1px, 12px) rotate(0deg); }
     100% { transform: translate(1px, -21px) rotate(-1deg); }
-  }
+}
+
+@keyframes develop {
+    from{
+        background-color: black;
+    }
+    
+}
 
 html, body
 {
@@ -201,7 +209,7 @@ html, body
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .polaroid-picture
