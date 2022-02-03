@@ -226,6 +226,7 @@ html, body
     margin-left: 2.5vh;
     margin-top: -10vh;
     background-color: black;
+    box-shadow: -0.5vh -1vh 2vh 0.5vh rgb(87, 87, 87) inset !important;
 }
 
 .pic
