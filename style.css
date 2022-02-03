@@ -216,6 +216,7 @@ html, body
     width: 40vh;
     position: absolute;
     margin-top: 27vh;
+    box-shadow: 0.6vh 0.6vh 1.5vh 0.5vh rgb(12, 12, 12) !important;
     display: flex;
     flex-direction: column;
     justify-content: center;
