@@ -211,7 +211,6 @@ html, body
     display: flex;
     flex-direction: row;
     justify-content: center;
-    visibility: visible;
 }
 
 .polaroid-picture
@@ -236,5 +235,5 @@ html, body
 }
 
 .polaroid-body:hover .pic {
-    animation: develop 4s forwards;
+    animation: develop 3.5s forwards;
 }
