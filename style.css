@@ -223,8 +223,6 @@ html, body
 
 .pic
 {
-    height: 25vh;
-    width: 35vh;
     opacity: 0%;
 }
 
@@ -235,5 +233,5 @@ html, body
 }
 
 .polaroid-body:hover .pic {
-    animation: develop 3.5s forwards;
+    animation: develop 3s forwards;
 }
