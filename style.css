@@ -53,7 +53,7 @@
     from{
         background-color: black;
     }
-    
+
 }
 
 html, body
@@ -218,6 +218,13 @@ html, body
     width: 35vh;
     margin-top: 3vh;
     background-color: black;
+}
+
+.pic
+{
+    height: 25vh;
+    width: 35vh;
+    opacity: 0%;
 }
 
 .polaroid-body:hover {
