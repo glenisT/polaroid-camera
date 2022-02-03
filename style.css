@@ -1,3 +1,8 @@
+@font-face {
+    font-family: font;
+    src: url(GochiHand-Regular.ttf);
+}
+
 @keyframes ledPulse {
     from {
         opacity: 100%;
@@ -210,7 +215,7 @@ html, body
     position: absolute;
     margin-top: 27vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -218,7 +223,8 @@ html, body
 {
     height: 25vh;
     width: 35vh;
-    margin-top: 3vh;
+    margin-left: 2.5vh;
+    margin-top: -10vh;
     background-color: black;
 }
 
@@ -235,4 +241,12 @@ html, body
 
 .polaroid-body:hover .pic {
     animation: develop 3s forwards;
+}
+
+.polaroid-text
+{
+    font-family: font;
+    font-size: larger;
+    color: black;
+    text-align: center;
 }
