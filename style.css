@@ -120,6 +120,7 @@ html, body
     position: absolute;
     border-radius: 50%;
     margin-top: 2.5vh;
+    box-shadow: 0.5vh 0.5vh 1vh 0.5vh rgb(54, 54, 54) inset !important;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -133,6 +134,7 @@ html, body
     position: absolute;
     border-radius: 50%;
     margin-top: 3vh;
+    box-shadow: 0.5vh 0.5vh 1vh 0.5vh rgb(77, 77, 77) inset !important;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -146,6 +148,7 @@ html, body
     position: absolute;
     border-radius: 50%;
     margin-top: 3vh;
+    box-shadow: 0.2vh 0.2vh 0.5vh 0.2vh rgb(61, 61, 61) inset !important;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -159,6 +162,7 @@ html, body
     position: absolute;
     border-radius: 50%;
     margin-top: 2vh;
+    box-shadow: 0.2vh 0.2vh 0.5vh 0.2vh rgb(41, 41, 41) inset !important;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -172,6 +176,7 @@ html, body
     position: absolute;
     border-radius: 50%;
     margin-top: 1.5vh;
+    box-shadow: 0.05vh 0.05vh 0.5vh 0.02vh rgb(83, 83, 83) inset !important;
     display: flex;
     flex-direction: row;
     justify-content: center;
