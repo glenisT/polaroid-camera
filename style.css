@@ -242,20 +242,3 @@ html, body
 .polaroid-body:hover .pic {
     animation: develop 3s forwards;
 }
-
-.polaroid-text
-{
-    font-family: font;
-    font-size: larger;
-    color: black;
-    text-align: center;
-}
-
-.span
-{
-    font-family: font;
-    color: #1684f1;
-    text-align: center;
-    margin-top: 1.5vh;
-    animation: ledPulse 0.6s 3 forwards reverse;
-}
