@@ -29,7 +29,7 @@
     from{
     }
     to{
-        margin-left: 25vh;
+        margin-right: 100vh;
     }
 }
 
@@ -61,6 +61,9 @@ html, body
     margin:0;
     padding:0;
     background-color:#333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .camera-body
@@ -68,7 +71,6 @@ html, body
     background-color: lavender;
     height: 50vh;
     width: 50vh;
-    margin-left: 35%;
     margin-top: 25vh;
     border-radius: 10vh;
     position: absolute;
@@ -206,7 +208,6 @@ html, body
     height: 45vh;
     width: 40vh;
     position: absolute;
-    margin-left: 37%;
     margin-top: 27vh;
     display: flex;
     flex-direction: row;
